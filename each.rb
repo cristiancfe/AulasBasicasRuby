@@ -20,7 +20,7 @@ puts " Elimina o última valor que é 10 da exibição mostrando somente até 9 
 v = (1..10).to_a 
 puts " Não elimina o última valor mostra até 10 #{v}\n\n"
 =end
-
+=begin
 for i in (1..10) # imprime todos numeros de 1  a 10
   puts i
 end
@@ -28,7 +28,12 @@ end
 10.times do # imprime 10 vexes a palavra hi
   puts "hi"
 end
-
+=end
+x = 8
+x /= 2
+y = 1
+x.times {y+=2}
+puts y
 
 
 
